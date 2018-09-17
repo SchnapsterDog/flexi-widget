@@ -1,13 +1,11 @@
-# vue-clock-simple
+# flexi-widget
 
-A Vue component that shows a clock.
-
-This isn't particularly useful, it's used as a demo for how to publish Vue components to NPM!
+Reusable, mobile responsive Vue component
 
 ## Installation
 
 ```js
-npm i --save-dev vue-clock-simple
+npm i --save-dev flexi-widget
 ```
 
 ### Browser
@@ -25,7 +23,7 @@ Include the script file, then install the component with `Vue.use(VueClock);` e.
 ### Module
 
 ```js
-import VueClock from 'vue-clock';
+import FlexiWidget from 'flexi-widget';
 ```
 
 ## Usage
@@ -33,5 +31,5 @@ import VueClock from 'vue-clock';
 Once installed, it can be used in a template as simply as:
 
 ```html
-<vue-clock></vue-clock>
+<flexi-widget></flexi-widget>
 ```
