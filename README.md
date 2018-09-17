@@ -14,9 +14,9 @@ Include the script file, then install the component with `Vue.use(VueClock);` e.
 
 ```html
 <script type="text/javascript" src="node_modules/vuejs/dist/vue.min.js"></script>
-<script type="text/javascript" src="node_modules/vue-clock-simple/dist/vue-clock.min.js"></script>
+<script type="text/javascript" src="node_modules/flexi-widget/dist/flexi-widget.min.js"></script>
 <script type="text/javascript">
-  Vue.use(VueClock);
+  Vue.use(FlexiWidget);
 </script>
 ```
 
