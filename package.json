@@ -1,6 +1,6 @@
 {
   "name": "flexi-widget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue.js component that displays a widget",
   "main": "dist/flexi-widget.js",
   "scripts": {
