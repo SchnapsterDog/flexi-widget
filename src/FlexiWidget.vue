@@ -39,6 +39,7 @@
             default: 'Header',
         },
         result: {
+            type: [String, Number],
             default: 2018
         },
         progressBar: {
