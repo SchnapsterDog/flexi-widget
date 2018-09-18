@@ -8,7 +8,7 @@
                 <div class="flexi-widget-stats-progress ">
                     <div class="flexi-progress-bar" style="width: 70.1%;"></div>
                 </div>
-                <div class="stats-desc">Better than last week (70.1%)</div>
+                <div class="stats-desc">Better than last week {{ progressBar }} 70.1%</div>
             </div>
         </div>
     </div>
@@ -39,7 +39,6 @@
             default: 'Header',
         },
         result: {
-            type: Number,
             default: 2018
         },
         progressBar: {
