@@ -1,4 +1,4 @@
-# flexi-widget
+# Flexi Widget
 
 Reusable, mobile responsive Vue component
 
@@ -10,7 +10,7 @@ npm i --save-dev flexi-widget
 
 ### Browser
 
-Include the script file, then install the component with `Vue.use(VueClock);` e.g.:
+Include the script file, then install the component with `Vue.use(FlexiWidget);` e.g.:
 
 ```html
 <script type="text/javascript" src="node_modules/vuejs/dist/vue.min.js"></script>
@@ -28,8 +28,31 @@ import FlexiWidget from 'flexi-widget';
 
 ## Usage
 
-Once installed, it can be used in a template as simply as:
+Once installed, it can be used as simply as:
 
 ```html
-<flexi-widget></flexi-widget>
+<flexi-widget :color="'blue'"
+              :header="'Flexi Widget'"
+              :result="202030"
+              :progressBar="50">
+</flexi-widget>
 ```
+
+```css
+.container{
+    display: flex;
+    //optionial 
+    #use flex-direction: 'column' or 'row'
+}
+```
+
+## API
+
+### Props
+
+| Name        | Type           | Description                                                             |
+| :-----      | :-------       | :---------------------------------------------------------------------- |
+| color       | String         | Changes the theme color of the flexi widget.                             |
+| header      | Sting          | Set a header.                                 |
+| result      | String Number  | Set a main value in the widget                           |
+| progressBar | Number         | Set a value for progress bar                           |
